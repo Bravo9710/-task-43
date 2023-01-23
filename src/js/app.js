@@ -7,4 +7,6 @@ window.addEventListener("DOMContentLoaded", () => {
   button.addEventListener("click", () => {
     alert("💣");
   });
+
+  setTimeout( () => { window.document.title = 'One new message'}, 3000)
 });
